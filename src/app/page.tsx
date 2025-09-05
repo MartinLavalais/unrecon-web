@@ -1,23 +1,8 @@
-"use client";
-
 import Image from "next/image";
 import styles from "./page.module.css";
-import { useRouter } from "next/navigation";
+import RedirectButton from "@/components/redirectButton";
 
 export default function Home() {
-  const router = useRouter();
-
-  const navigateToAbout = () => {
-    router.push("/about");
-  }
-
-  const navigateToPortfolio = () => {
-    router.push("/portfolio");
-  }
-
-  const navigateToUnrecon = () => {
-    router.push("https://www.unrecon.ch/");
-  }
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-6 space-y-6 bg-base-100">
@@ -29,8 +14,8 @@ export default function Home() {
               Je suis James Benone, et bienvenue sur mon site web.
               Vous retrouverez ci-dessous, des liens pour se renseigner sur moi et voir mon portfolio.
             </p>
-            <button className="btn btn-neutral m-2" onClick={navigateToAbout}>À propos de moi</button>
-            <button className="btn btn-neutral m-2" onClick={navigateToPortfolio}>Portfolio</button>
+            <RedirectButton link="/about" text="À propos" theme="primary" />
+            <RedirectButton link="/portfolio" text="Portfolio" theme="primary" />
           </div>
         </div>
       </div>
@@ -50,7 +35,7 @@ export default function Home() {
           <h2 className="card-title">Unrecon</h2>
           <p>Unrecon.ch est un site web que j'ai commencé à développer pendant mon temps libre lors de ma formation, vous pouvez aller sur le site via le bouton ci-dessous.</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary" onClick={navigateToUnrecon}>Voir le site</button>
+            <RedirectButton link="/portfolio" text="Voir le site" theme="primary" />
           </div>
         </div>
       </div>
