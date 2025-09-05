@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import RedirectButton from "@/components/redirectButton";
+import FooterLink from "@/components/footerLink";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -54,13 +55,14 @@ export default function RootLayout({
         <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
           <nav>
             <h6 className="footer-title">benone.ch</h6>
-            <a className="link link-hover">À propos de moi</a>
-            <a className="link link-hover">Me contacter</a>
+            <FooterLink link="/about" text="À propos" />
+            <FooterLink link="/portfolio" text="Portfolio" />
+            <FooterLink link="/contact-us" text="Me contacter" />
           </nav>
           <nav>
             <h6 className="footer-title">Legal</h6>
-            <a className="link link-hover">Mentions légales</a>
-            <a className="link link-hover">Confidentialités</a>
+            <FooterLink link="/legal-mentions" text="Mentions légales" />
+            <FooterLink link="/confidentiality" text="Confidentialités" />
           </nav>
         </footer>
       </body>
