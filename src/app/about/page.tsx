@@ -135,6 +135,103 @@ export default function AboutPage()
                 </div>
               </li>
             </ul>
+            <div className="collapse collapse-plus bg-base-300 border border-base-300">
+              <input type="radio" name="my-accordion-3" defaultChecked />
+              <div className="collapse-title font-semibold">Quels sont mes compétences?</div>
+              <div className="collapse-content text-sm">
+                <p>Languages : HTML, CSS, JS, PHP, C#</p>
+                <p>Applications utilisés : Adobe Illustrator, Mirmaid, Trello, Suite Office 365</p>
+                <p>Capacités : Réfléction et création d'une architecture d'application, gestion de données, capacité de dépannage</p>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-300 border border-base-300">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title font-semibold">Quels sont mes qualités?</div>
+              <div className="collapse-content text-sm">Sait gardé son calme dans toute situation, Esprit d'équipe, Compétence de gestion d'équipe, apptitude à communiquer, autonome, autodidacte, organisé, sociable, capable de s'adapter</div>
+            </div>
+            <div className="collapse collapse-plus bg-base-300 border border-base-300">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title font-semibold">Quels sont mes projets?</div>
+              <div className="collapse-content text-sm">
+                <div className="overflow-x-auto rounded-box border border-base-content/5 bg-base-100 border-base-300">
+                  <table className="table">
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Status</th>
+                        <th>Date de début</th>
+                        <th>Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>Host-Unrecon</th>
+                        <td>
+                          <div className="inline-grid *:[grid-area:1/1]">
+                            <div className="status status-success animate-ping"></div>
+                            <div className="status status-success"></div>
+                          </div> Actif
+                        </td>
+                        <td>13/02/2023</td>
+                        <td>Service d'hébergement de serveur de jeu et d'application</td>
+                      </tr>
+                      <tr>
+                        <th>Site web</th>
+                        <td>
+                          <div className="inline-grid *:[grid-area:1/1]">
+                            <div className="status status-error"></div>
+                          </div> Abandonné
+                        </td>
+                        <td>27/02/2023</td>
+                        <td>Abandonné du à un design désastreux</td>
+                      </tr>
+                      <tr>
+                        <th>KMS</th>
+                        <td>
+                          <div className="inline-grid *:[grid-area:1/1]">
+                            <div className="status status-warning"></div>
+                          </div> V2 en cours
+                          </td>
+                        <td>17/09/2024</td>
+                        <td>Key Manager Service</td>
+                      </tr>
+                      <tr>
+                        <th>Drive</th>
+                        <td>
+                          <div className="inline-grid *:[grid-area:1/1]">
+                            <div className="status status-warning"></div>
+                          </div> En développement
+                        </td>
+                        <td>13/11/2024
+                        </td>
+                        <td>Un drive avec le back-end hébergé sur mon NAS et mon front-end chez Infomaniak</td>
+                      </tr>
+                      <tr>
+                        <th>Bot</th>
+                        <td>
+                          <div className="inline-grid *:[grid-area:1/1]">
+                            <div className="status status-success animate-ping"></div>
+                            <div className="status status-success"></div>
+                          </div> Actif
+                        </td>
+                        <td>09/07/2025</td>
+                        <td>Bot discord pour de la traduction instantané</td>
+                      </tr>
+                      <tr>
+                        <th>OAuth</th>
+                        <td>
+                          <div className="inline-grid *:[grid-area:1/1]">
+                            <div className="status"></div>
+                          </div> Planifié
+                        </td>
+                        <td>??/??/2025</td>
+                        <td>Permet une authentification unique pour toutes les applications</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
         </div>
     );
 }
