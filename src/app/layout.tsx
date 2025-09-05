@@ -35,10 +35,9 @@ export default function RootLayout({
               <ul
                 tabIndex={0}
                 className="menu menu-sm dropdown-content bg-neutral rounded-box z-1 mt-3 w-52 p-2 shadow">
-                <li><a>Accueil</a></li>
-                <li><a>À propos de moi</a></li>
-                <li><a>Portfolio</a></li>
-                <li><RedirectButton link="/portfolio" text="Portfolio" theme="neutral"/></li>
+                <li><RedirectButton link="/" text="Accueil" theme="primary"/></li>
+                <li><RedirectButton link="/about" text="À propos" theme="primary"/></li>
+                <li><RedirectButton link="/portfolio" text="Portfolio" theme="primary"/></li>
               </ul>
             </div>
           </div>
