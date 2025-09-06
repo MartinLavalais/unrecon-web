@@ -7,7 +7,7 @@ export default function PortfolioPage()
         <div className="flex flex-col items-center justify-center min-h-screen p-2 space-y-2 bg-base-100">
             <div className="p-6">
                 <h1>Projets clients réalisés</h1>
-                <div className="flex">
+                <div className="lg:flex">
                     <div className="card bg-base-100 w-96 shadow-sm m-2">
                       <figure className="aspect-16/9">
                         <img
