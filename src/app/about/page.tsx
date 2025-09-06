@@ -137,20 +137,6 @@ export default function AboutPage()
             </ul>
             <div className="collapse collapse-plus bg-base-300 border border-base-300">
               <input type="radio" name="my-accordion-3" defaultChecked />
-              <div className="collapse-title font-semibold">Quels sont mes compétences?</div>
-              <div className="collapse-content text-sm">
-                <p>Languages : HTML, CSS, JS, PHP, C#</p>
-                <p>Applications utilisés : Adobe Illustrator, Mirmaid, Trello, Suite Office 365</p>
-                <p>Capacités : Réfléction et création d'une architecture d'application, gestion de données, capacité de dépannage</p>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-300 border border-base-300">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title font-semibold">Quels sont mes qualités?</div>
-              <div className="collapse-content text-sm">Sait gardé son calme dans toute situation, Esprit d'équipe, Compétence de gestion d'équipe, apptitude à communiquer, autonome, autodidacte, organisé, sociable, capable de s'adapter</div>
-            </div>
-            <div className="collapse collapse-plus bg-base-300 border border-base-300">
-              <input type="radio" name="my-accordion-3" />
               <div className="collapse-title font-semibold">Quels sont mes projets?</div>
               <div className="collapse-content text-sm">
                 <div className="overflow-x-auto rounded-box border border-base-content/5 bg-base-100 border-base-300">
@@ -231,6 +217,20 @@ export default function AboutPage()
                   </table>
                 </div>
               </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-300 border border-base-300">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title font-semibold">Quels sont mes compétences?</div>
+              <div className="collapse-content text-sm">
+                <p>Languages : HTML, CSS, JS, PHP, C#</p>
+                <p>Applications utilisés : Adobe Illustrator, Mirmaid, Trello, Suite Office 365</p>
+                <p>Capacités : Réfléction et création d'une architecture d'application, gestion de données, capacité de dépannage</p>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-300 border border-base-300">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title font-semibold">Quels sont mes qualités?</div>
+              <div className="collapse-content text-sm">Sait gardé son calme dans toute situation, Esprit d'équipe, Compétence de gestion d'équipe, apptitude à communiquer, autonome, autodidacte, organisé, sociable, capable de s'adapter</div>
             </div>
         </div>
     );
