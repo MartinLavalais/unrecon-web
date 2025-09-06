@@ -16,7 +16,7 @@ export default function PortfolioPage()
                       </figure>
                       <div className="card-body">
                         <h2 className="card-title">VFDesigner</h2>
-                        <p>Durant l'été 2025, un client m'a contacté pour un site vitrine qui le redirige vers son discord. Le site a été développé par moi et est hébergé chez moi.</p>
+                        <p>Durant l&apos;été 2025, un client m&apos;a contacté pour un site vitrine qui le redirige vers son discord. Le site a été développé par moi et est hébergé chez moi.</p>
                         <div className="card-actions justify-end">
                             <RedirectButton link="https://vfdesigner.fr/" text="Voir le site" theme="primary" />
                         </div>
@@ -42,7 +42,7 @@ export default function PortfolioPage()
                       </figure>
                       <div className="card-body">
                         <h2 className="card-title">SEKO</h2>
-                        <p>Partenariat entre SEKO et Unrecon depuis 2024. J'héberge leurs serveurs pour leur événement et je suis responsable de l'infrastructure et la sécurité.</p>
+                        <p>Partenariat entre SEKO et Unrecon depuis 2024. J&apos;héberge leurs serveurs pour leur événement et je suis responsable de l&apos;infrastructure et la sécurité.</p>
                         <div className="card-actions justify-end">
                             <RedirectButton link="https://seko.wstr.fr/" text="Voir leur site" theme="primary" />
                         </div>

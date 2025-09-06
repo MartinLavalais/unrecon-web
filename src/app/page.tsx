@@ -1,5 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import RedirectButton from "@/components/redirectButton";
 
 export default function Home() {
@@ -21,11 +19,13 @@ export default function Home() {
       </div>
       <figure className="diff aspect-16/9" tabIndex={0}>
         <div className="diff-item-1" role="img" tabIndex={0}>
-          <img alt="Logo de l'entreprise" src="/unrecon-background-1.jpg" />
+          <img 
+          alt="Logo de l&apos;entreprise" 
+          src="/unrecon-background-1.jpg" />
         </div>
         <div className="diff-item-2" role="img">
           <img
-            alt="Logo de l'entreprise en dorée"
+            alt="Logo de l&apos;entreprise en dorée"
             src="/unrecon-background-3.jpg" />
         </div>
         <div className="diff-resizer"></div>
@@ -33,7 +33,7 @@ export default function Home() {
       <div className="card card-border bg-neutral text-neutral-content w-96">
         <div className="card-body">
           <h2 className="card-title">Unrecon</h2>
-          <p>Unrecon.ch est un site web que j'ai commencé à développer pendant mon temps libre lors de ma formation, vous pouvez aller sur le site via le bouton ci-dessous.</p>
+          <p>Unrecon.ch est un site web que j&apos;ai commencé à développer pendant mon temps libre lors de ma formation, vous pouvez aller sur le site via le bouton ci-dessous.</p>
           <div className="card-actions justify-end">
             <RedirectButton link="/portfolio" text="Voir le site" theme="primary" />
           </div>
