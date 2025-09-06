@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import RedirectButton from "@/components/redirectButton";
 import FooterLink from "@/components/footerLink";
+import RedirectText from "@/components/redirectText";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -43,7 +44,9 @@ export default function RootLayout({
             </div>
           </div>
           <div className="navbar-center">
-            <a className="btn btn-ghost text-xl">benone.ch</a>
+            <a className="btn btn-ghost text-xl">
+              <RedirectText link="/" text="benone.ch" />
+            </a>
           </div>
           <div className="navbar-end">
             <RedirectButton link="/login" text="connexion" theme="primary"/>
